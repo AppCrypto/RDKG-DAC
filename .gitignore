@@ -1,0 +1,16 @@
+# Local credentials and runtime configuration
+.env
+.env.*
+!.env.example
+
+# Benchmark output and Python caches
+/results/
+__pycache__/
+*.py[cod]
+
+# Local build/editor artifacts
+.DS_Store
+*.test
+coverage.out
+/revisedbench
+/EVOLV_DAO
